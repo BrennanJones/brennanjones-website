@@ -1,0 +1,6 @@
+/.well-known/
+/681topic/
+/internal/
+/lyricsvis/
+.htaccess
+error_log

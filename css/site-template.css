@@ -1,0 +1,15 @@
+body {
+  padding-top: 50px;
+}
+.main-template {
+  padding: 40px 15px;
+  text-align: left;
+}
+.homepage-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.centring-template {
+  padding: 40px 15px;
+  text-align: center;
+}
