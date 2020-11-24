@@ -85,41 +85,42 @@
   </head>
 
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand mb-0 h1" href="index.php?section=home">Brennan Jones</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-      <a class="navbar-brand mb-0 h1" href="index.php?section=home">Brennan Jones</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li <?php if ($section == 'home') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
-            <a class="nav-link" href="index.php?section=home">Home</a>
-          </li>
-          <li <?php if ($section == 'projects') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
-            <a class="nav-link" href="index.php?section=projects">Projects</a>
-          </li>
-          <li <?php if ($section == 'publications') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
-            <a class="nav-link" href="index.php?section=publications">Publications</a>
-          </li>
-          <li <?php if ($section == 'teaching') echo 'class="nav-item dropdown active"'; else echo 'class="nav-item dropdown"'; ?>>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Teaching
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="http://pages.cpsc.ucalgary.ca/~bdgjones/cpsc481" target="_blank">CPSC 481 - HCI (Fall 2015)</a>
-            </div>
-          </li>
-          <li <?php if ($section == 'contact') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
-            <a class="nav-link" href="index.php?section=contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="media/documents/brennan-cv.pdf" target="_blank">CV (PDF)</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li <?php if ($section == 'home') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
+              <a class="nav-link" href="index.php?section=home">Home</a>
+            </li>
+            <li <?php if ($section == 'projects') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
+              <a class="nav-link" href="index.php?section=projects">Projects</a>
+            </li>
+            <li <?php if ($section == 'publications') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
+              <a class="nav-link" href="index.php?section=publications">Publications</a>
+            </li>
+            <li <?php if ($section == 'teaching') echo 'class="nav-item dropdown active"'; else echo 'class="nav-item dropdown"'; ?>>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Teaching
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://pages.cpsc.ucalgary.ca/~bdgjones/cpsc481" target="_blank">CPSC 481 - HCI (Fall 2015)</a>
+              </div>
+            </li>
+            <li <?php if ($section == 'contact') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
+              <a class="nav-link" href="index.php?section=contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="media/documents/brennan-cv.pdf" target="_blank">CV (PDF)</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <div class="container">
       <?php
