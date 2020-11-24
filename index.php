@@ -58,6 +58,11 @@
   {
     $pageTitle = 'Projects | Remote Art Therapy';
   }
+  else if ($page == 'vroom')
+  {
+    $pageTitle = 'Projects | VROOM';
+  }
+
 
 ?>
 
