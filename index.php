@@ -62,8 +62,6 @@
   {
     $pageTitle = 'Projects | VROOM';
   }
-
-
 ?>
 
 <!DOCTYPE html>
