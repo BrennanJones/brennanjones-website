@@ -62,6 +62,10 @@
   {
     $pageTitle = 'Projects | VROOM';
   }
+  else if ($page == '360-telepresence-outdoors')
+  {
+    $pageTitle = 'Projects | VR Telepresence Interface for Outdoor Activities';
+  }
 ?>
 
 <!DOCTYPE html>
