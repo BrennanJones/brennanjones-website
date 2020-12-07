@@ -60,11 +60,15 @@
   }
   else if ($page == 'vroom')
   {
-    $pageTitle = 'Projects | VROOM';
+    $pageTitle = 'Projects | VROOM: Virtual Robot Overlay for Online Meetings';
   }
   else if ($page == '360-telepresence-outdoors')
   {
     $pageTitle = 'Projects | VR Telepresence Interface for Outdoor Activities';
+  }
+  else if ($page == 'feetback')
+  {
+    $pageTitle = 'Projects | FeetBack: Augmenting Robotic Telepresence with Haptic Feedback on the Feet';
   }
 ?>
 
