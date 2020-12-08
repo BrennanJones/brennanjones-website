@@ -1,0 +1,80 @@
+<div class="main-template">
+	<h1>Collaboration Technologies for Wilderness Search and Rescue</h1>
+	<p><i>In collaboration with Anthony Tang, Carman Neustaedter, Alissa N. Antle, and Elgin-Skye McLaren</i></p>
+	<p><br></p>
+
+	<div class="row">
+		<div class="col-lg-12">
+			<img src="media/images/projects/wsar-overview.png" alt="WSAR involves careful communication, coordination, and information sharing between managers at a command post (left) and searchers in the field (right)." width="100%">
+			<p><br></p>
+		</div>
+	</div>
+
+	<p>When a hiker gets lost in the woods or a skier does not return home from the mountain, a search crew needs to be called to find the missing person and bring them out of the wilderness safely. Wilderness search and rescue (wilderness SAR, or WSAR) involves the search for and extraction of one or more lost people from a wilderness area. WSAR is a carefully planned and organized team operation, requiring collaboration and information sharing between many workers who are spread out across various locations in the outdoors. Workers play a variety of roles, both on the ground and at the command post, and they need information and awareness specific to those roles. WSAR is time critical, in that personnel need to work together to find the missing person as quickly as possible.</p>
+
+	<p>For my PhD dissertation work, I am focused on advancing understanding of how to design and build technologies to better support distributed collaboration between responders in high-stakes emergency situations such as WSAR in which responders travel large distances over long periods of time over vast geographic areas, where understanding and awareness of conditions 'on the ground' are crucial, and in which realtime communication and awareness are not always possible. WSAR is the main focus of my dissertation, though the findings from my work could also be possibly applied to other emergency domains such as disaster response.</p>
+
+	<p>As a first step, I ran an investigative study to understand the work processes of WSAR workers, the procedures they follow, the ways they communicate, the tools they use, and the factors that lead to success or failure in WSAR missions. In this study, I interviewed WSAR workers, including managers, field team leaders, and field team members, and I observed a simulated mock-search activity involving more than 100 WSAR volunteers in Western Canada.</p>
+
+	<p>The findings from this study demonstrate that while maintaining the shared mental model of the responding agency as a whole is important for a response, there are many challenges unique to WSAR that make this challenging. Some of these are due to technological factors (i.e., communicating over the radio), others relate to environmental factors, and some relate to current communication and work protocols. Overall, the study findings lead to the following design opportunities:</p>
+
+	<ol>
+		<li><i>Technology can be designed to support a shared mental model among WSAR workers responding to an incident.</i></li>
+		<li><i>Gaps in radio and cellular reception bring about unique challenges in maintaining shared mental models across scattered locations, and so there is a necessity to support building and maintaining a shared mental model in network-sparse situations.</i></li>
+		<li><i>There could be benefit to introducing increased awareness between field teams and Command.</i></li>
+	</ol>
+
+	<p>In addition, the study also revealed the following design recommendations:</p>
+
+	<ol>
+		<li><i>While shared mental models are important, new technologies should not burden workers with too much irrelevant information and should filter information and messages depending on one’s duties, role, location, time, and cruciality of the information.</i></li>
+		<li><i>Before introducing more communication channels and information streams (such as videos, pictures, and text), designers should first focus on aggregating the existing channels together and presenting the information in a simplified way to the necessary people.</i></li>
+		<li><i>Given the mental and physical demands that workers face, WSAR communications should be as simple, minimal, quick, and distraction-free as possible.</i></li>
+	</ol>
+
+	<p>I began exploring ideas for design solutions for WSAR personnel working in the command post (i.e., managers, planners, etc.). The first design idea was a tangible tabletop user interface for the command post. Called the <i>WSAR Terrain Table</i>, this interface brings together information from multiple sources and presents them in a single location, and thus is an early attempt at aggregating multiple information streams. The base of this tool is a physical terrain model of the search area. Placed over the terrain are physical props indicating information that remains constant or changes infrequently (e.g., the locations of the command posts). Projected over the terrain are digital representations of information that changes frequently, such as weather information (e.g., wind direction and speed, cloud cover), the makeup of the terrain (e.g., which parts are covered by snow, which parts are water and which are ground), the current locations of the field teams, the paths the teams have taken, and the locations of clues. This tabletop interface is intended to be placed in a convenient, accessible, and easy to see location in the command post. It is meant to support workers at Command in their management and planning duties by allowing them to inspect the statuses of the search environment, the field teams, and the progress of the search through visual observations from multiple viewpoints as well as via inspections through touch and physically handling objects on the terrain.</p>
+
+	<p><br></p>
+
+	<div class="embed-responsive embed-responsive-16by9">
+	  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/-FngrfPa5wY" allowfullscreen></iframe>
+	</div>
+	<p><br></p>
+
+	<p>The second design idea, which is currently a work-in-progress, is an improved iteration of the Terrain Table, but instead runs on a desktop computer or a large touch-screen display located in the command post. This system is called <i>RescueCASTR</i>, or <i>Search and <b>Rescue</b> <b>C</b>ontextual <b>A</b>wareness <b>Str</b>eaming Platform</i>. This interface explores the idea of sending teams out to the field with at least one of their members wearing a wearable camera (e.g., a small camera attached to the member’s helmet, jacket, or backpack strap) that streams live video or sequential photos periodically (e.g., once every five seconds) to Command, allowing them to see the footage live and explore past footage. This is assuming that, even though reception may be spotty, when teams do have a connection with Command, this connection contains at least enough bandwidth to send one low-resolution photo every few seconds. The purpose of this camera footage is to provide Command with extra contextual information of teams’ activities, in addition to their GPS locations and radio/text messages, with the intention of reducing the need for explicit communication requests (e.g., requesting the field teams to respond on the radio, or to a text message), and boosting Command’s awareness and teams’ statuses and the progress of the operation.</p>
+
+	<div class="row">
+		<div class="col-lg-6">
+			<img src="media/images/projects/rescuecastr-3d.png" alt="RescueCASTR: an interface for WSAR command-post workers that allows them to keep track of the statuses and activities of field teams, the conditions in the field, and the progress of the search response." width="100%">
+			<p><br></p>
+		</div>
+		<div class="col-lg-6">
+			<img src="media/images/projects/rescuecastr-messaging.png" alt="Using the RescueCASTR interface to message a team in the field about a clue they found." width="100%">
+			<p><br></p>
+		</div>
+	</div>
+
+	<p>Lastly, although not the main focus of my PhD dissertation, drones can also be used to enable video-based remote collaboration between a remote user indoors (e.g., a manager at the command post) and a co-located user in the field (e.g., a ground search team). Drones could provide a unique overhead perspective, which could be useful for both field workers and Command, allowing them to inspect the space from angles that would otherwise be unachievable. This perspective could be especially beneficial for WSAR, as it allows workers to see things they would otherwise not be able to see from the ground; potentially even spotting the lost subject. The use of drones for remote collaboration between a co-located outdoor worker and a remote indoor helper was the topic of my <a href="index.php?section=projects&page=drone-video-conferencing">Master's thesis project</a>.</p>
+
+	<div class="row">
+		<div class="col-lg-5">
+			<img src="media/images/projects/dvc-main.jpg" alt="Drone Video Communication" width="100%">
+			<p><br></p>
+		</div>
+		<div class="col-lg-7">
+			<img src="media/images/projects/dvc-ui.jpg" alt="Drone-Video-Conferencing Prototype Desktop UI" width="100%">
+			<p><br></p>
+		</div>
+	</div>
+	
+	<h2>Publications</h2>
+	<ul>
+		<li><b>Jones, B.</b>, Tang, A., and Neustaedter, C. Remote Communication in Wilderness Search and Rescue: Implications for the Design of Emergency Distributed-Collaboration Tools for Network-Sparse Environments. In <i>Proceedings of the ACM on Human-Computer Interaction, 4 (GROUP)</i>.<br><a href="media/documents/publications/group10-jones.pdf" target="_blank">Download PDF</a> | <a href="https://doi.org/10.1145/3375190" target="_blank">Publication Link</a></li>
+		<li><b>Jones, B.</b>, Tang, A., Neustaedter, C., Antle, A.N., and McLaren, E.S. Designing a Tangible Interface for Manager Awareness in Wilderness Search and Rescue. In <i>Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2018)</i>, ACM.<br><a href="media/documents/publications/cscwp037-jonesA.pdf" target="_blank">Download PDF</a> | <a href="media/documents/publications/cscwp037-jones-poster.pdf" target="_blank">Download Poster</a> | <a href="https://dl.acm.org/citation.cfm?id=3274045" target="_blank">Publication Link</a></li>
+		<li><b>Jones, B.</b>, Tang, A., Neustaedter, C., Antle, A.N., and McLaren, E.S. Designing Technology for Shared Communication and Awareness in Wilderness Search and Rescue. In <i>HCI Outdoors: Theory, Design, Methods and Applications</i>, Springer.<br><a href="https://link.springer.com/chapter/10.1007/978-3-030-45289-6_9" target="_blank">Publication Link</a></li>
+		<li><b>Jones, B.</b> Designing for Distributed Collaboration in Wilderness Search and Rescue. In <i>Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2018; Doctoral Colloquium)</i>, ACM.<br><a href="media/documents/publications/BRENNANJONES_CSCWDC2018.pdf" target="_blank">Download PDF</a> | <a href="media/documents/publications/BRENNANJONES_CSCWDC2018_POSTER.pdf" target="_blank">Download Poster</a> | <a href="https://dl.acm.org/citation.cfm?id=3272978" target="_blank">Publication Link</a></li>
+		<li><b>Jones, B.</b>, Tang, A., and Neustaedter, C. Drones for Remote Collaboration in Wilderness Search and Rescue. In <i>iHDI: International workshop on Human-Drone Interaction (CHI 2019 Workshop)</i>.<br><a href="media/documents/publications/sar-drone-wkshp.pdf" target="_blank">Download PDF</a> | <a href="media/documents/publications/sar-drone-wkshp-poster.pdf" target="_blank">Download Poster</a> | <a href="https://hal.archives-ouvertes.fr/hal-02128391" target="_blank">Publication Link</a></li>
+		<li><b>Jones, B.</b>, Tang, A., and Neustaedter, C. Designing Outdoor Remote-Communication Tools for Serious Collaborative Activities. In <i>HCI Outdoors: A CHI 2018 Workshop on Understanding Human-Computer Interaction in the Outdoors</i>.<br><a href="media/documents/publications/HCI-Outdoors2018_paper_15.pdf" target="_blank">Download PDF</a> | <a href="http://hcioutdoors.net/" target="_blank">Publication Link</a></li>
+		<li><b>Jones, B.</b>, Dillman, K., Tang, R., Tang, A., Sharlin, E., Oehlberg, L., Neustaedter, C., and Bateman, S. Elevating Communication, Collaboration, and Shared Experiences in Mobile Video through Drones. In <i>Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS 2016)</i>, ACM.<br><a href="media/documents/publications/pn0412-jonesA.pdf" target="_blank">Download PDF</a> | <a href="https://www.youtube.com/watch?v=CejNLVO53lc" target="_blank">Watch Video</a> | <a href="http://dx.doi.org/10.1145/2901790.2901847" target="_blank">Publication Link</a></li>
+	</ul>
+</div>

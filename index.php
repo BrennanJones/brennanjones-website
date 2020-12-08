@@ -70,6 +70,10 @@
   {
     $pageTitle = 'Projects | FeetBack: Augmenting Robotic Telepresence with Haptic Feedback on the Feet';
   }
+  else if ($page == 'wsar')
+  {
+    $pageTitle = 'Projects | Collaboration Technologies for Wilderness Search and Rescue';
+  }
 ?>
 
 <!DOCTYPE html>
