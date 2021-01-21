@@ -74,6 +74,14 @@
   {
     $pageTitle = 'Projects | Collaboration Technologies for Wilderness Search and Rescue';
   }
+  else if ($page == 'telepresence-ldr')
+  {
+    $pageTitle = 'Projects | Telepresence for Long-Distance Couples Shopping Together';
+  }
+  else if ($page == 'emergency-video-calling')
+  {
+    $pageTitle = 'Projects | Emergency Video Calling';
+  }
 ?>
 
 <!DOCTYPE html>
