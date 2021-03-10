@@ -82,6 +82,10 @@
   {
     $pageTitle = 'Projects | Emergency Video Calling';
   }
+  else if ($page == 'xrmas')
+  {
+    $pageTitle = 'Projects | XRmas: Virtual Augmented Experience for Remote Family Meetings during Christmas';
+  }
 ?>
 
 <!DOCTYPE html>
