@@ -136,10 +136,10 @@
             <li <?php if ($section == 'contact') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
               <a class="nav-link" href="index.php?section=contact">Contact</a>
             </li>
-            <!-- <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="media/documents/brennan-cv.pdf" target="_blank">CV (PDF)</a>
-            </li> -->
-            <li <?php if ($section == 'resume') echo 'class="nav-item dropdown active"'; else echo 'class="nav-item dropdown"'; ?>>
+            </li>
+            <!-- <li <?php if ($section == 'resume') echo 'class="nav-item dropdown active"'; else echo 'class="nav-item dropdown"'; ?>>
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Resume/CV
               </a>
@@ -147,7 +147,7 @@
                 <a class="dropdown-item" href="media/documents/brennan-resume-short.pdf" target="_blank">Short Resume (PDF)</a>
                 <a class="dropdown-item" href="media/documents/brennan-cv.pdf" target="_blank">Full CV (PDF)</a>
               </div>
-            </li>
+            </li> -->
           </ul>
         </div>
       </nav>
