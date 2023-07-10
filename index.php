@@ -29,10 +29,10 @@
   {
     $pageTitle = 'Publications';
   }
-  else if ($page == 'teaching')
-  {
-    $pageTitle = 'Teaching';
-  }
+  // else if ($page == 'teaching')
+  // {
+  //   $pageTitle = 'Teaching';
+  // }
   else if ($page == 'contact')
   {
     $pageTitle = 'Contact';
@@ -125,14 +125,14 @@
             <li <?php if ($section == 'publications') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
               <a class="nav-link" href="index.php?section=publications">Publications</a>
             </li>
-            <li <?php if ($section == 'teaching') echo 'class="nav-item dropdown active"'; else echo 'class="nav-item dropdown"'; ?>>
+            <!-- <li <?php if ($section == 'teaching') echo 'class="nav-item dropdown active"'; else echo 'class="nav-item dropdown"'; ?>>
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Teaching
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="https://pages.cpsc.ucalgary.ca/~bdgjones/cpsc481" target="_blank">CPSC 481 - HCI (Fall 2015)</a>
               </div>
-            </li>
+            </li> -->
             <li <?php if ($section == 'contact') echo 'class="nav-item active"'; else echo 'class="nav-item"'; ?>>
               <a class="nav-link" href="index.php?section=contact">Contact</a>
             </li>
