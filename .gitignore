@@ -2,8 +2,6 @@
 /681topic/
 /internal/
 /lyricsvis/
-.htaccess
-.htaccess.phpupgrader.393f9898
-.htaccess.phpupgrader.initial
 error_log
 test.json
+.htaccess*
